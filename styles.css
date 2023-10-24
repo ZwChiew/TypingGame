@@ -1,0 +1,96 @@
+
+/* Styling for body */
+body {
+    background-color: #FF8FB1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* Styling for rectangle white container */
+.body {  
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 30px auto;
+    width: 60%;
+    height: 350px;
+    background-color: #FCE2DB;
+    display: flex; 
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column; 
+}
+
+/* Styling for red rectangle (header)  */
+.content{
+    padding:30px 1px ;
+    border-radius: 25px;
+    background-color: tomato;
+    width: 100%;
+}
+
+/* Styling for the "Typing Game"*/
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: white;
+}
+
+/* Styling for parent of timer and score class*/
+.board {
+    color: #7A4495;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.timer{
+    /* inline-block to make both element move to same line */
+    display: inline-block; 
+    margin-right: 200px;
+    }
+
+.score {
+    display: inline-block;
+}
+
+/* styling for instruction */
+.instruction-1, .instruction-2 {
+    font-size: 1.1rem;
+    color: red;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+
+.instruction-1 {
+    padding-top: 10px;
+}
+
+
+/* styling for button */
+.hover {
+    font-size: 1.1rem;
+    border: 1px solid white;
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+    
+}  
+
+/* styling when button is hovered over */
+.hover:hover {
+    border-color: orange;
+    box-shadow: 0 0.5em 0.5em -0.4em orange;
+}
+
+
+/* styling used in JS */
+.disable {
+    opacity: 0.5;
+}
+
+.highlight {
+    background-color: tomato;
+}
